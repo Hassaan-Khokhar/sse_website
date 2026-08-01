@@ -1,3 +1,4 @@
+"use client";
 import React, { useState, useEffect, useRef } from 'react';
 import { SearchResult } from '../../types';
 import { PROGRAMS_LIST, EVENTS_LIST, RESOURCES_LIST } from '../../data/schoolData';

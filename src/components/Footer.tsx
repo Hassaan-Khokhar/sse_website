@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import { Instagram, Facebook, Linkedin, MapPin, Phone, Mail } from 'lucide-react';
 import { SCHOOL_LOGO } from '../data/schoolData';

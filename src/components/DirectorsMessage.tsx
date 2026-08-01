@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import { DIRECTOR_IMG } from '../data/schoolData';
 import { Quote } from 'lucide-react';

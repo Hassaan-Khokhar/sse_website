@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import { HERO_BG } from '../data/schoolData';
 import { ArrowDown, GraduationCap, PlayCircle, ChevronRight } from 'lucide-react';

@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import { BookOpen, Users, Building2, Monitor, ArrowUpRight } from 'lucide-react';
 

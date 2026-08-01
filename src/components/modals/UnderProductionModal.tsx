@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import { X, Wrench } from 'lucide-react';
 import { SCHOOL_LOGO } from '../../data/schoolData';

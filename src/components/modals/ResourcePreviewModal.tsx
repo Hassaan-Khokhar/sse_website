@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import { ResourceItem } from '../../types';
 import { X, Download, FileText, Check, Printer } from 'lucide-react';

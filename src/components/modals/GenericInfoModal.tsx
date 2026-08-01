@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import { X, MapPin, Phone, Mail, Clock, ShieldCheck } from 'lucide-react';
 

@@ -1,26 +1,28 @@
+"use client";
+
 import React, { useState, useEffect } from 'react';
-import { Navbar } from './components/Navbar';
-import { HeroSection } from './components/HeroSection';
-import { ImpactStrip } from './components/ImpactStrip';
-import { WelcomeSection } from './components/WelcomeSection';
-import { CorePillars } from './components/CorePillars';
-import { DirectorsMessage } from './components/DirectorsMessage';
-import { CampusLifeGallery } from './components/CampusLifeGallery';
-import { EventsAndResources } from './components/EventsAndResources';
-import { ContactSection } from './components/ContactSection';
-import { Footer } from './components/Footer';
+import { Navbar } from '../components/Navbar';
+import { HeroSection } from '../components/HeroSection';
+import { ImpactStrip } from '../components/ImpactStrip';
+import { WelcomeSection } from '../components/WelcomeSection';
+import { CorePillars } from '../components/CorePillars';
+import { DirectorsMessage } from '../components/DirectorsMessage';
+import { CampusLifeGallery } from '../components/CampusLifeGallery';
+import { EventsAndResources } from '../components/EventsAndResources';
+import { ContactSection } from '../components/ContactSection';
+import { Footer } from '../components/Footer';
 
-import { ApplicationModal } from './components/modals/ApplicationModal';
-import { StoryModal } from './components/modals/StoryModal';
-import { LightboxModal } from './components/modals/LightboxModal';
-import { ResourcePreviewModal } from './components/modals/ResourcePreviewModal';
-import { SearchModal } from './components/modals/SearchModal';
-import { EventRegisterModal } from './components/modals/EventRegisterModal';
-import { GenericInfoModal } from './components/modals/GenericInfoModal';
-import { UnderProductionModal } from './components/modals/UnderProductionModal';
-import { Toast } from './components/Toast';
+import { ApplicationModal } from '../components/modals/ApplicationModal';
+import { StoryModal } from '../components/modals/StoryModal';
+import { LightboxModal } from '../components/modals/LightboxModal';
+import { ResourcePreviewModal } from '../components/modals/ResourcePreviewModal';
+import { SearchModal } from '../components/modals/SearchModal';
+import { EventRegisterModal } from '../components/modals/EventRegisterModal';
+import { GenericInfoModal } from '../components/modals/GenericInfoModal';
+import { UnderProductionModal } from '../components/modals/UnderProductionModal';
+import { Toast } from '../components/Toast';
 
-import { EventItem, ResourceItem, GalleryItem } from './types';
+import { EventItem, ResourceItem, GalleryItem } from '../types';
 
 export function App() {
   const [activeSection, setActiveSection] = useState<string>('hero');

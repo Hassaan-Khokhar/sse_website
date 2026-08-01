@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import { EVENTS_LIST, RESOURCES_LIST } from '../data/schoolData';
 import { EventItem, ResourceItem } from '../types';

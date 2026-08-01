@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import { WELCOME_IMG } from '../data/schoolData';
 import { CheckCircle2, ArrowRight, Award, Globe } from 'lucide-react';

@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from 'react';
 import { EventItem } from '../../types';
 import { X, Calendar, MapPin, Clock, CheckCircle2 } from 'lucide-react';

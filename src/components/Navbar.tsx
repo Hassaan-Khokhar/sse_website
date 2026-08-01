@@ -1,3 +1,4 @@
+"use client";
 import React, { useState, useEffect } from 'react';
 import { SCHOOL_LOGO } from '../data/schoolData';
 import { Menu, X, ArrowRight, ChevronRight } from 'lucide-react';

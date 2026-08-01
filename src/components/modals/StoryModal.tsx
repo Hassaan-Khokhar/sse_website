@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import { WELCOME_IMG, DIRECTOR_IMG } from '../../data/schoolData';
 import { X, Award, Shield, CheckCircle } from 'lucide-react';

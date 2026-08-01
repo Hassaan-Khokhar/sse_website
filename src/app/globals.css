@@ -43,21 +43,7 @@
   transform: scale(1.06);
 }
 
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-}
-::-webkit-scrollbar-track {
-  background: #f6f3f2;
-}
-::-webkit-scrollbar-thumb {
-  background: #2b4c7e;
-  border-radius: 4px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #0e3566;
-}
-
+/* Removed custom webkit scrollbars that leak into component overflow */
 /* Custom Animations */
 @keyframes slow-pan {
   0% { transform: scale(1.05) translate(0, 0); }
