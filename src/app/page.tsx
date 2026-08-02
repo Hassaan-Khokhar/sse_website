@@ -24,7 +24,7 @@ import { Toast } from '../components/Toast';
 
 import { EventItem, ResourceItem, GalleryItem } from '../types';
 
-export function App() {
+export default function App() {
   const [activeSection, setActiveSection] = useState<string>('hero');
   const [toastMessage, setToastMessage] = useState<string | null>(null);
 
@@ -212,4 +212,3 @@ export function App() {
   );
 }
 
-export default App;

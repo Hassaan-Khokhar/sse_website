@@ -35,7 +35,7 @@ export interface ResourceItem {
 export interface GalleryItem {
   id: string;
   title: string;
-  category: 'All' | 'Academics' | 'Sports' | 'Arts' | 'Campus';
+  category: string;
   image: string;
   colSpan?: string;
   rowSpan?: string;
